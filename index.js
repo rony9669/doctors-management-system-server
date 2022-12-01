@@ -233,7 +233,7 @@ async function run() {
       );
       res.send(result);
     });
-    //! Temporary to update price field on appointment options
+    // Temporary to update price field on appointment options
     // app.get("/addPrice", async (req, res) => {
     //   const filter = {};
     //   const options = { upsert: true };
