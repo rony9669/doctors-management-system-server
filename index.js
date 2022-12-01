@@ -106,6 +106,7 @@ async function run() {
       res.send(bookings);
     });
 
+    //!posting booking data to server
     app.post("/bookings", async (req, res) => {
       const booking = req.body;
       const query = {
