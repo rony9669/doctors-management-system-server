@@ -124,6 +124,7 @@ async function run() {
       res.send(result);
     });
 
+    //! get only one appointmentDate
     app.get("/appointmentSpecialty", async (req, res) => {
       const query = {};
       const result = await appointmentOptionCollection
