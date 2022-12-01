@@ -208,6 +208,7 @@ async function run() {
       const result = await usersCollection.insertOne(user);
       res.send(result);
     });
+    //!update user
     app.put("/users/admin/:id", verifyJWT, verifyAdmin, async (req, res) => {
       // const decodedEmail = req.decoded.email;
       // const query = { email: decodedEmail };
